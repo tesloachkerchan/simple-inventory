@@ -1,0 +1,22 @@
+.product-section{
+    margin: 40px;
+}
+nav{
+    top: 0;
+    position: fixed;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+@media screen and (max-width: 480px){
+    nav{
+        position: fixed;
+    }
+    .product-section{
+        margin-bottom: auto;
+    }
+}
